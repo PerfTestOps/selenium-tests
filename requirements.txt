@@ -1,0 +1,10 @@
+# Core dependencies
+selenium==4.18.1          # Latest stable Selenium (includes Selenium Manager)
+webdriver-manager==4.0.1  # Auto-downloads browser drivers
+
+# Testing framework (optional but recommended)
+pytest==8.0.0             # Run tests easily
+pytest-html==4.1.1        # Generate HTML reports (optional)
+
+# Utility libraries (optional, for waits, parsing, etc.)
+requests==2.31.0          # Useful for API calls in tests
